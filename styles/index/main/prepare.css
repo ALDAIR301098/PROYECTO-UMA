@@ -1,0 +1,42 @@
+.prepare{
+    background-color: #fdf2fe;
+    padding: 50px 0px;
+}
+
+.container-prepare{
+    width: 90%;
+    margin-left: 250px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-prepare img{
+    margin-left: 100px;
+    width: 825px;
+}
+
+.container-prepare h2{
+    font-size: 50px;
+}
+
+#prepare-purple{
+    color: #ed80fd;
+}
+
+.container-prepare p{
+    margin-top: -20px;
+    font-size: 19px;
+}
+
+.container-prepare button{
+    padding: 25px 70px;
+    background-color: #ed80fd;
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 30px;
+}

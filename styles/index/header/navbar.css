@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+nav{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+#nav-links{
+    display: flex;
+    align-items: center;
+}
+
+#nav-links a{
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #454868;
+    text-align: center;
+}
+
+#nav-links a:hover{
+    font-weight: 700;
+    color: coral;
+}
+
+#nav-options{
+    margin-left: 50px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-languaje{
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    margin-right: 25px;
+}
+
+#btn-languaje p{
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+#btn-languaje:hover{
+    cursor: pointer;
+}
+
+#ic-translate{
+    width: 40px;
+    margin-right: 10px;
+}
+
+#btn-login{
+    background-color: transparent;
+    border: 1.5px solid #999cb9;
+    border-radius: 12px;
+    color: #454868;
+    padding: 20px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    max-lines: 1;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+

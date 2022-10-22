@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.classes{
+    margin: 8% 6%;
+    padding: 75px 0px;
+}
+
+/* **************************** CONTAINER CLASSES ******************************** */
+
+.container-classes{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#classes-title{
+    width: 22%;
+}
+
+#classes-title h2{
+    font-size: 50px;
+    margin-top: 0px;
+    color: #010851;
+}
+
+#classes-title p{
+    font-size: 17px;
+}
+
+/* **************************** CONTAINER SCHEDULE ******************************** */
+
+#container-schedule{
+    height: 475px;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 45px;
+    box-shadow: 4px 4px 30px 15px #fcf7fd;
+}
+
+#container-schedule img{
+    width: 210px;
+    margin-top: 25px;
+}
+
+#container-schedule h3{
+    color: #010851;
+    font-size: 25px;
+    margin-left: -50px;
+}
+
+/* **************************** CONTAINER TASK ******************************** */
+
+#container-task{
+    width: 19%;
+    height: 430px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 45px;
+    box-shadow: 4px 4px 30px 15px #fcf7fd;
+}
+
+#container-task img{
+    margin-top: 50px;
+    width: 250px;
+}
+
+#container-task h3{
+    font-size: 25px;
+    margin-top: 75px;
+    color: #010851;
+    margin-left: -50px;
+}
+
+/* **************************** CONTAINER TASK ******************************** */ 
+
+#container-platform{
+    height: 475px;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 45px;
+    box-shadow: 4px 4px 35px 15px #fcf7fd;
+}
+
+#container-platform img{
+    width: 260px;
+    margin-top: 50px;
+}
+
+#container-platform h3{
+    font-size: 26px;
+    margin-top: 75px;
+    color: #010851;
+    margin-left: -50px;
+}

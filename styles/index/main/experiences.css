@@ -1,0 +1,42 @@
+.experiences{
+    background-color: #fdf2fe;
+    padding: 100px 0px 0px 0px;
+}
+
+.container-experiences{
+    width: 90%;
+    margin-left: 140px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-experiences img{
+    width: 825px;
+}
+
+#container-experiences-description h2{
+    font-size: 50px;
+}
+
+#experiences-purple{
+    color: #ed80fd;
+}
+
+#container-experiences-description p{
+    margin-top: -20px;
+    font-size: 19px;
+}
+
+#container-experiences-description button{
+    padding: 25px 70px;
+    background-color: #ed80fd;
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
