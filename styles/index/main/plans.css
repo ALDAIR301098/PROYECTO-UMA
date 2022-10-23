@@ -1,0 +1,201 @@
+.plans {
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container-title-plans h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.container-title-plans p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.container-plan-duration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 550;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 15px 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #ed80fd;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #fadffe;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.container-plan-options {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-plan-options h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.container-plan-options p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.container-plan-options ul {
+    list-style: none;
+    margin-top: -10px;
+}
+
+.container-plan-options li {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.disabled:before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    width: 40px;
+    line-height: 50px;
+    margin-left: -1em;
+}
+
+.enabled:before{
+    content: "\2022";
+    color: rgb(17, 255, 0);
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    width: 40px;
+    line-height: 50px;
+    margin-left: -1em;
+}
+
+.option-basic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px 75px 50px;
+    border-radius: 45px;
+    box-shadow: 4px 4px 30px 15px #fcf7fd;
+}
+
+.option-advanced {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px 50px 50px;
+    border-radius: 45px;
+    box-shadow: 4px 4px 30px 15px #fcf7fd;
+}
+
+.option-premium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px 75px 50px;
+    border-radius: 45px;
+    box-shadow: 4px 4px 30px 15px #fcf7fd;
+}
+
+.price {
+    font-size: 100px;
+    font-weight: 800;
+    color: #ed80fd;
+}
+
+.price-span{
+    margin-top: -5px;
+}
+
+.outlined-button {
+    background-color: transparent;
+    color: #ed80fd;
+    padding: 25px 80px;
+    border: 1.5px solid #ed80fd;
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 12px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.filled-button {
+    background-color: #ed80fd;
+    padding: 25px 80px;
+    border: 0px;
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 12px;
+    margin-top: 25px;
+    color: white;
+    cursor: pointer;
+}

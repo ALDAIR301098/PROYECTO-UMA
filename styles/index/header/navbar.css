@@ -75,5 +75,6 @@ nav{
     max-lines: 1;
     text-overflow: clip;
     white-space: nowrap;
+    cursor: pointer;
 }
 
