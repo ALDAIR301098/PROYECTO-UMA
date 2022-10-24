@@ -14,11 +14,13 @@
 .container-title-plans h2 {
     font-size: 50px;
     text-align: center;
+    color: #010851;
 }
 
 .container-title-plans p {
     font-size: 19px;
     text-align: center;
+    color: #010851;
 }
 
 .container-plan-duration {
@@ -100,11 +102,13 @@ input:checked+.slider:before {
 .container-plan-options h2 {
     font-size: 50px;
     text-align: center;
+    color: #010851;
 }
 
 .container-plan-options p {
     font-size: 19px;
     text-align: center;
+    color: #010851;
 }
 
 .container-plan-options ul {
@@ -115,11 +119,12 @@ input:checked+.slider:before {
 .container-plan-options li {
     font-size: 20px;
     font-weight: 500;
+    color: #010851;
 }
 
 .disabled:before {
     content: "\2022";
-    color: red;
+    color: #c11b1b;
     font-weight: bold;
     font-size: 50px;
     display: inline-block;
@@ -130,7 +135,7 @@ input:checked+.slider:before {
 
 .enabled:before{
     content: "\2022";
-    color: rgb(17, 255, 0);
+    color: #39dc98;
     font-weight: bold;
     font-size: 50px;
     display: inline-block;
@@ -180,7 +185,7 @@ input:checked+.slider:before {
     background-color: transparent;
     color: #ed80fd;
     padding: 25px 80px;
-    border: 1.5px solid #ed80fd;
+    border: 2px solid #ed80fd;
     font-weight: 500;
     font-size: 19px;
     border-radius: 12px;
@@ -190,7 +195,8 @@ input:checked+.slider:before {
 
 .filled-button {
     background-color: #ed80fd;
-    padding: 25px 80px;
+    width: 275px;
+    height: 85px;
     border: 0px;
     font-weight: 500;
     font-size: 19px;

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+footer {
+    position: relative;
+    background-color: #010851;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.container-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-suscribe {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.container-suscribe img {
+    width: 150px;
+}
+
+.container-suscribe-controls {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.container-suscribe-controls input[type=text]:focus {
+    border: 2px solid white;
+}
+
+
+.container-suscribe-controls input[type=text] {
+    width: 300px;
+    height: 80px;
+    background-color: #b2b3bf;
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 19px;
+    margin-right: 15px;
+}
+
+.solid {
+    margin: 80px 30px 20px 50px;
+    border-top: 1px solid white;
+}
+
+.container-options p {
+    color: white;
+    font-size: 19px;
+}
+
+.container-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.container-platform {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-help {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.social p {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.container-icons-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bi::before {
+    font-size: 20px;
+    color: #010851;
+    margin-left: 30px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}

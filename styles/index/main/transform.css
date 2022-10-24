@@ -1,0 +1,24 @@
+.transform{
+    margin: 150px 70px;
+    background: linear-gradient(340deg, rgb(238, 154, 229) 0%, rgb(89,97,249) 100%);
+    border-radius: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 75px;
+}
+
+.transform h2{
+    font-size: 50px;
+    color: white;
+}
+
+.transform p{
+    color: white;
+    font-size: 19px;
+}
+
+.transform img{
+    width: 500px;
+    margin-right: 50px;
+}
